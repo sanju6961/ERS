@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="/css/signup.css" />
+<div class="container">
+  <form class="form" action="/create" method="POST">
+    <h3 class="mb-3 text-center">Sign up</h3>
+
+    <!-- Username input -->
+    <div class="form-outline mb-2">
+      <label class="label" for="username">User name</label><br />
+      <input type="text" id="name" name="username" class="input" required />
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-2">
+      <label class="label" for="email">Email address</label><br />
+      <input type="email" id="email" name="email" class="input" required />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-2">
+      <label class="label" for="password">Password</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="input"
+        required
+      />
+    </div>
+
+    <!-- Confirm password input -->
+    <div class="form-outline mb-2">
+      <label class="label" for="confirm_password">Confirm password</label><br />
+      <input
+        type="password"
+        id="confirm_password"
+        name="confirm_password"
+        class="input"
+        required
+      />
+    </div>
+
+    <!-- User role input -->
+    <div class="form-outline mb-2">
+      <label class="label" for="role">Role</label><br />
+      <select
+        class="select"
+        id="role"
+        name="role"
+        aria-label="Default select example"
+        required
+      >
+        <option selected value="employee">Employee</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+
+    <!-- Buttons container -->
+    <div class="btn-container">
+      <!-- signup button -->
+      <button type="submit" class="btn">SIGN UP</button>
+      <!-- google signup button button -->
+    </div>
+
+    <!-- Link to redierct to login page -->
+    <div class="text">
+      <p>Already registered? <a href="/">Login</a></p>
+    </div>
+  </form>
+</div>

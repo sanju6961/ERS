@@ -1,0 +1,33 @@
+.main-container{
+    background-color: rgb(240, 200, 206);
+    height: 100vh;
+}
+
+.user-card{
+    background: pink;
+}
+.card-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(247, 11, 50);
+    text-decoration: underline rgb(247, 11, 50);
+}
+
+.user-email,.user-role{
+    text-align: center;
+    color: rgb(185, 51, 74);
+}
+
+.btn{
+    border: 2px solid rgb(243, 13, 51);
+}
+
+.btn:hover{
+    background: rgb(243, 13, 51);
+    border: 2px solid rgb(247, 123, 146);
+    transition: 0.5s;
+    color: pink;
+}
+
