@@ -9,7 +9,7 @@ Node , Express, Mongodb , EJS , javaScript , html, css, jQuery and PassportJS
 Features
 Sign up / Sign in forms for employees.
 You can review the employees.
-The admin has the special power to assing, the task to employee, remove the employee, add new admin, and also employee.
+The admin has the special power to assign, the task to employee, remove the employee, add new admin, and also employee.
 The admin can also update the reviews for any employee and can also delete any employee's reviews.
 the employee can review their co-employees.
 employees can view their review which are given by other employees.
